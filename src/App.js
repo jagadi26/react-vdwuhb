@@ -25,23 +25,11 @@ function App() {
 
     <div>
       <Test></Test>
-      <ExpenseItem
-        title={Expense[0].title}
-        amount={Expense[0].amount}
-        date={Expense[0].date}
-      ></ExpenseItem>
+      <ExpenseItem title={Expense[0].title} amount={Expense[0].amount} date={Expense[0].date}></ExpenseItem>
       <Test></Test>
-      <ExpenseItem
-        title={Expense[1].title}
-        amount={Expense[1].amount}
-        date={Expense[1].date}
-      ></ExpenseItem>
+      <ExpenseItem title={Expense[1].title} amount={Expense[1].amount} date={Expense[1].date}></ExpenseItem>
       <Test></Test>
-      <ExpenseItem
-        title={Expense[2].title}
-        amount={Expense[2].amount}
-        date={Expense[2].date}
-      ></ExpenseItem>
+      <ExpenseItem title={Expense[2].title} amount={Expense[2].amount} date={Expense[2].date}></ExpenseItem>
     </div>
   );
 }
