@@ -1,16 +1,10 @@
 import React from 'react';
-function ExpenseItem(props) {
-  const day = props.date.toLocaleString('en-US', { day: '2-digit' });
-  const month = props.date.toLocaleString('en-US', { month: 'long' });
-  const year = props.date.getFullYear();
+import ExpenseDate from './Components/ExpenseDate';
 
+function ExpenseItem(props) {
   return (
     <div>
-      <div>
-        <div>{month}</div>
-        <div>{day}</div>
-        <div>{year}</div>
-      </div>
+      <ExpenseDate date = {props.date} />
       <div>{props.title}</div>
       <div>${props.amount}</div>
     </div>
