@@ -8,17 +8,17 @@ function App() {
     {
       title: 'Car Expense',
       amount: 250,
-      date: new Date(2021, 2, 13),
+      date: new Date(2001, 5, 15),
     },
     {
       title: 'Paper Expense',
       amount: 50,
-      date: new Date(2021, 2, 13),
+      date: new Date(2020, 2, 13),
     },
     {
       title: 'System Expense',
       amount: 700,
-      date: new Date(2021, 2, 13),
+      date: new Date(2018, 3, 21),
     },
   ];
   return (
